@@ -1,0 +1,458 @@
+.image-container {
+    
+    background: url("https://www.qatarairways.com/content/dam/images/renditions/horizontal-1/privilege-club/campaigns/student-club/hn-student-club-refresh-travelling-man-en.jpg");
+    width: 100%;
+    height:450px;
+   
+   
+
+}
+
+input:focus {
+    outline: none; /* Removes the default outline */
+  
+}
+
+.greatfares {
+    overflow: hidden;
+    border-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+
+}
+.greatfare-image.image1,.greatfare-image.image2,.greatfare-image.image3,.greatfare-image.image4,.greatfare-image.image5{
+    opacity: 0;
+    position: absolute;
+    top: 860px;
+    left: 220px;
+    z-index: 2; 
+    
+
+}
+
+.greatfare-image.images1:hover,.greatfare-image.images2:hover,.greatfare-image.images3:hover,.greatfare-image.images4:hover,.greatfare-image.images5:hover{
+    /* opacity: 1; */
+    z-index: 10;
+    transition: transform 0.5s ease-out;
+    transform-origin: center;
+    transform: scale(1.05); 
+    border-radius: 30px;
+    filter: brightness(0.7);
+
+}
+.hover-button-one{
+    opacity: 0;
+    position: absolute;top: 914px;left: 59.8px;
+    z-index: 2; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.hover-button-two{
+    opacity: 0;
+    position: absolute;top: 917px;left: 644px;
+    z-index: 2; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.hover-button-three{
+    opacity: 0;
+    position: absolute;top: 914px;right: 115px;
+    z-index: 2; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.hover-button-four{
+    opacity: 0;
+    position: absolute;top: 1280px;left: 60px;
+    z-index: 2; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.hover-button-five{
+    opacity: 0;
+    position: absolute;top: 1280px;right: 115px;
+    z-index: 2; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.hover-button-one:hover,.hover-button-three:hover{
+    opacity: 1;
+    z-index: 2;
+    transition: transform 0.5s ease-out;
+
+}
+.hover-button-two:hover,.hover-button-four:hover,.hover-button-five:hover{
+    opacity: 1;
+    z-index: 2;
+    transition: transform 0.5s ease-out;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    width: 10%;
+    z-index: 2;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:64%;
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0));
+    z-index: 1;
+}
+#custom-link{
+    width: 100px;
+    z-index: 2;
+
+}
+button.border.border-0{
+    height: 50px;
+    padding: 15px;
+    width: 370px;
+    /* border-top-left-radius: 30px; */
+}
+button.border.border-0:hover{
+    background-color: rgb(255, 255, 255);
+   
+}
+button.border.border-0:first-of-type{
+    border-top-left-radius: 30px;
+}
+button.border.border-0:last-of-type{
+    border-top-right-radius: 30px;
+}
+
+#special-container{
+    display: flex;
+    justify-content: center;
+    height: 271.48px;
+    /* background-color: rgba(234, 234, 234, 0.577); */
+    background-color: white;
+    width: 1161px !important;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+
+}
+#parent-container{
+    display: flex;  
+    justify-content: center;
+    position: absolute;
+    top: 400px;
+    left: 180px;
+    z-index: 1;
+    /* width: 1161px; */
+
+   
+}
+#special-radio{
+    position: absolute;
+   
+    top: 70px;
+    left: 50px;
+   
+    width: 380px;
+}
+#special-radio label{
+    margin-left: 40px;
+}
+#special-radio label input{
+    padding-left:30px;
+}
+
+#special-radio label input[type="radio"] {
+    transform: scale(1.8); 
+}
+.child-box{
+    position: relative;
+    top: 60px;
+    left: 220px;
+   width: 1080px;
+    z-index: 1;
+    border-radius: 15px;
+}
+.child-box button{
+    border-radius: 0px !important;
+    width: 143px !important;
+}
+
+.class-select option{
+    z-index: 2;
+}
+.child-box input[type="text"],[type="date"]{
+    width: 130px;
+}
+
+/* .search button{
+    width: 80px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+ */
+ 
+ .col-3{
+    border-radius: 20px;
+    background-color: rgba(234, 234, 234, 0.577);
+    width: 270px;
+    /* padding: -10px; */
+ }
+ .col-3 img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: blue;
+ }
+
+.more-fare{
+    color: #8e2157;
+    width: 343px;
+    height: 57.6px;
+    border: 1px solid  #8e2157;
+    background-color: transparent;
+
+}
+.more-fare:hover{
+    background-color: #8e2157;
+    color: white;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+li a{
+    color: #8e2157;
+text-decoration: none;
+}
+li a:hover{
+    color: #8e2157;
+    text-decoration: underline;
+}
+
+.more-fare-link{
+    position:relative;
+    bottom: -230px;
+    /* left: 175px; */
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.more-fare-image{
+    position:relative;
+    bottom: -180px;
+    /* left: 175px; */
+    width: 100%;
+}
+.more-fare-image-card{
+    width: 460px;
+    position: relative;
+    bottom: 180px;
+    left: 160px;
+    background-color: rgba(49, 49, 49, 0.811);
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+.more-fare-image-card button{
+    color: white;
+    padding: 15px;
+    background-color: rgba(68, 68, 68, 0);
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.travel-package-heading{
+    margin-left: 174px;
+}
+
+.travel-package{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+  
+}
+.travel-package img{
+    
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 0.5s ease-out;
+
+
+    
+
+}
+
+
+.travel-package img:hover{
+    
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 0.5s ease-out;
+   filter: brightness(0.7);
+   transform: scale(1.05);
+   overflow: hidden; 
+
+    
+
+}
+.travel-package .one:hover  .hover-button1,.two:hover  .hover-button2,.three:hover  .hover-button3{
+    background-color: #8e2157;
+    color: white;
+   opacity: 1;
+   height: 56px;
+   width: 300px;
+   transition: 0.3s ease-in-out;
+
+}
+
+/* .travel-package .one h4:hover{
+    color: rgb(255, 254, 254);
+    opacity: 1;
+    position: absolute;
+    top: 170px;
+    left: 210px;
+    transition: 0.5s ease-out;
+}
+.travel-package .two h4:hover{
+    color: rgb(255, 254, 254);
+    opacity: 1;
+    position: absolute;
+    top: 170px;
+    left: 610px;
+    transition: 0.5s ease-out;
+}
+.travel-package .three h4:hover{
+    color: rgb(255, 254, 254);
+    opacity: 1;
+    position: absolute;
+    top: 170px;
+    left: 1010px;
+    transition: 0.5s ease-out;
+} */
+
+
+.one h4{
+    width: 330px;
+    position: absolute;
+    top: 200px;
+    left: 210px;
+    /* opacity: 0; */
+    transform: translateX(-2%);
+    transition: opacity 0.1s ease, bottom 0.1s ease;
+
+}
+.two h4{
+    width: 330px;
+    position: absolute;
+    top: 200px;
+    left: 610px;
+    /* opacity: 0; */
+    transform: translateX(-2%);
+    transition: opacity 0.1s ease, bottom 0.1s ease;
+}
+.three h4{
+    width: 330px;
+    position: absolute;
+    top: 200px;
+    left: 1010px;
+    /* opacity: 0; */
+    transform: translateX(-2%);
+    transition: opacity 0.1s ease, bottom 0.1s ease;
+}
+.hover{
+    height: 40px;
+    border-radius: 30px;
+    width: 300px;
+    background-color: rgb(94, 0, 94);
+    opacity: 0; 
+
+}
+
+.hover-button1{  
+    position: absolute;
+    top: 280px;
+    left: 210px;
+}
+
+.hover-button2{
+    position: absolute;
+    top: 280px;
+    left: 610px;
+}
+
+.hover-button3{  
+    position: absolute;
+    top: 280px;
+    right: 210px;
+}
+
+.news-letter{
+    margin-top: 75px;
+    margin-left: 175px;
+    border-radius: 20px;
+}
+.subscribe-main{
+    width: 900px;
+    position: relative;
+    top: -390px;
+    right: -790px;
+    /* background-color: white; */
+    padding: 20px;
+    color: white;
+}
+.subscribe-main-container{
+    height: 590px;
+}
+
+
+.subscribe-main-sub{
+    width: 400px;
+}
+.subscribe-main-sub-2,.subscribe-main-sub-3{
+    width: 500px;
+}
+
+footer ul li a{
+    text-decoration: underline;
+}
+.footer-linkbox1,.footer-linkbox2,.footer-linkbox3,.footer-linkbox4,.footer-linkbox5{
+    width: 200px;
+}
+.footer-linkbox-main{
+    position: relative;
+    top: 430px;
+    /* background-color: rgb(44, 145, 145); */
+    display: flex;
+    justify-content: space-around;
+    margin-top: -380px;
+    margin-left: 150px;
+    width: 892px;
+    /* width: 900px; */
+}
+
+
+.footer-image-link{
+   margin-right: 220px;
+   margin-top: 70px;
+   float: right;
+}
+.footer-symbol{
+    position: relative;
+    top: 460px;
+    left: 220px;
+}
+.footer-last-line a{
+    margin-right: 35px;
+    color: black;
+}
