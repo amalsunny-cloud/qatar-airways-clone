@@ -403,7 +403,7 @@ li a:hover{
     border-radius: 20px;
 }
 .subscribe-main{
-    width: 900px;
+    width: 500px;
     position: relative;
     top: -390px;
     right: -790px;
@@ -450,9 +450,9 @@ footer ul li a{
 .footer-symbol{
     position: relative;
     top: 460px;
-    left: 220px;
+    left: 280px;
 }
 .footer-last-line a{
-    margin-right: 35px;
+    margin-right: 25px;
     color: black;
 }
